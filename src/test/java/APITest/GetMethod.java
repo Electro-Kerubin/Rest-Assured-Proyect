@@ -1,9 +1,10 @@
 package APITest;
 
-import org.testng.annotations.Test;
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 
-public class APITests {
+import org.testng.annotations.Test;
+
+public class GetMethod {
     
     @Test
     public void testRickAndMortyAPI() {
